@@ -1,4 +1,4 @@
-package per.vastzhang.MySpringBootShiroDemo.shiro;
+package per.vastzhang.MySpringBootShiroDemo.bean;
 
 public class User {
     private String username;

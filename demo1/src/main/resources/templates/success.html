@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <title>success</title>
 </head>
+<script>
+    function logout() {
+        window.location.href = "/login";
+    }
+</script>
 <body>
 <span th:text="'欢迎你,'+${username}"></span>
+<button id="btn" type="button" onclick="logout()">Logout</button>
 </body>
 </html>
